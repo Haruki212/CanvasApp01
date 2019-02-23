@@ -59,6 +59,15 @@ public class MyView extends View {
         path.lineTo(600,600);
         canvas.drawPath(path,paint);
 
+        //国旗
+        paint.setColor(Color.BLACK);
+        paint.setStrokeWidth(100);
+        canvas.drawLine(200,300,650,300,paint);
+        paint.setColor(Color.RED);
+        canvas.drawLine(200,400,650,400,paint);
+        paint.setColor(Color.YELLOW);
+        canvas.drawLine(200,500,650,500,paint);
+
 
     }
 
